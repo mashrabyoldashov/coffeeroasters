@@ -1,0 +1,54 @@
+.AboutHero{
+    margin-bottom: 166px;
+    padding-top: 134px;
+    padding-left: 85px;
+    background-image: url(../img/Bitmap5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1280px 450px;
+    height: 450px;
+}
+
+.AboutHero__title{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 32px;
+    font-family: Fraunces 9pt;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FEFCF7;
+}
+
+.AboutHero__desc{
+    margin: 0;
+    padding: 0;
+    width: 445px;
+    height: 78px;
+    font-family: Barlow;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    opacity: 0.8;
+}
+
+.container-main{
+    padding-top: 100px;
+    padding-left: 85px;
+    padding-bottom: 39px;
+    padding-right: 145px;
+    background-color: #2C343E;
+    border-radius: 10px;
+}
+
+.img-2{
+    margin-left: -1px;
+}
+
+.heading-2{
+    color: #fff;
+}
+
+.desc-2{
+    color: #fff;
+}

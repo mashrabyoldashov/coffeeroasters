@@ -1,0 +1,27 @@
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    margin-top: 114.25px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    font-family: "Fraunces";
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+  }

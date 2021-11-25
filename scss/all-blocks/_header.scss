@@ -1,0 +1,50 @@
+.header{
+    position: fixed;
+    max-width: 100%;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.coffe-logo{
+    max-width: 236px;
+    // height: auto;
+}
+
+.header-nav-list{
+    display: flex;
+    align-items: center; 
+    flex-shrink: 0;
+    list-style: none;
+    margin: 0 -16.5px;
+}
+
+.header-nav-list li a{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    margin: 0 16.5px;
+    font-family: Barlow;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    color: #83888F;
+}
+.header-nav-list li a:hover{
+    color: #333D4B;
+}
+
+.hamburger-menu{
+    display: none;
+}
+
+@media (max-width: 367px){
+    .header-nav-list{
+        display: none;
+    }
+    .hamburger-menu{
+        display: block;
+    }
+}

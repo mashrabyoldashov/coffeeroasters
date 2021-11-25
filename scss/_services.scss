@@ -1,0 +1,57 @@
+.services{
+    margin-bottom: 517px;
+    background-image: url(../img/Group13.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1111px 196px;
+    height: 196px;
+}
+
+.services-navbar{
+    position: relative;
+    justify-content: center;
+    /* left: 205px; */
+    margin-left: -40px;
+}
+.services-list{
+    position: absolute;
+    top: 130px;
+    left: 70px;
+    /* right: 100px; */
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0 -15px;
+    margin: 0 auto;
+}
+.services-item{
+    margin: 0 15px;
+    width: 255px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.services-img{
+    margin-bottom: 71px;
+}
+.services-heading{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 24px;
+    font-family: Fraunces 9pt;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #333D4B
+}
+.services-desc{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Barlow;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+}
