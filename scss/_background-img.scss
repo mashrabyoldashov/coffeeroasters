@@ -1,25 +1,21 @@
-.background-img{
-    max-width: 100%;
+// .background-img{
+//     background-image: url(../img/Bitmap.png);
+//     background-repeat: no-repeat;
+//     background-position: center;
+//     background-size: 1280px 600px;
+//     // max-width: 1280px;
+//     height: 600px;
+//     margin-bottom: 136px;
+// }
+
+.container-back-img{
+    max-width: 1280px;
     height: auto;
     background-image: url(../img/Bitmap.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: auto;
-    // max-width: 1280px;
-    // background-attachment: fixed;
-    // height: auto;
     margin-bottom: 136px;
-    
 }
-
-// div {
-//     width: 100%;
-//     height: 400px;
-//     background-image: url('img_flowers.jpg');
-//     background-repeat: no-repeat;
-//     background-size: contain;
-//     border: 1px solid red;
-// }
 
 .back-img-left{
     padding-top: 117px;
@@ -30,7 +26,7 @@
     padding: 0;
     margin-bottom: 36px;
     max-width: 493px;
-    // height: 145px;
+    height: auto;
     font-family: Fraunces 9pt;
     font-weight: 900;
     font-size: 72px;
@@ -42,15 +38,15 @@
     padding: 0;
     margin-bottom: 52px;
     max-width: 445px;
-    // height: 78px;
+    height: auto;
     font-family: Barlow;
     line-height: 26px;
     color: #FEFCF7;
     opacity: 0.8;
 }
 .button{
-    max-width: 217px;
-    // height: 52px;
+    width: 217px;
+    height: 56px;
     background: #0E8784;
     color: #fff;
     border-radius: 6px;
@@ -67,10 +63,48 @@
     background-color: #66D2CF;
 }
 
-// @media (max-width: 367px){
-//     .background-img{
-//         background-size: 327px 500px;
-//         background-position: center;
-//         height: 500px;
-//     }
-// }
+@media (max-width: 367px){
+
+    .container-back-img{
+        width: 327px;
+        height: auto;
+        background-size: 327px 500px;
+        background-position: center;
+    }
+
+    .back-img-left{
+        padding: 0;
+        margin: 0;
+        padding-top: 100px;
+        padding-left: 24px;
+    }
+
+    .back-img-heading{
+        width: 279px;
+        // margin-bottom: 24px;
+        font-family: Fraunces 9pt;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 40px;
+        text-align: center;
+        color: #FEFCF7;
+    }
+
+    .back-img-desc{
+        width: 279px;
+        // margin-bottom: 39px;
+        font-family: Barlow;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: #FEFCF7;
+        opacity: 0.8;
+    }
+    // .background-img{
+    //     background-image: url(../img/Bitmap.png);
+    //     background-size: 327px 500px;
+    //     background-repeat: no-repeat;
+    //     background-position: center;
+    //     height: 500px;
+    // }
+}

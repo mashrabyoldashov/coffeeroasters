@@ -473,16 +473,16 @@ img {
 
 .header {
   position: fixed;
-  max-width: 100%;
+  width: 100%;
   background-color: #fff;
   top: 0;
   left: 0;
-  right: 0;
   z-index: 1;
 }
 
 .coffe-logo {
-  max-width: 236px;
+  max-width: 100%;
+  width: 236px;
   height: auto;
 }
 
@@ -493,8 +493,6 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
   list-style: none;
   margin: 0 -16.5px;
 }
@@ -520,7 +518,7 @@ img {
 }
 
 @media (max-width: 367px) {
-  .header-nav-list {
+  .header-nav-list a {
     display: none;
   }
   .hamburger-menu {
@@ -626,12 +624,11 @@ img {
 }
 
 .background-img {
-  max-width: 100%;
-  height: auto;
   background-image: url(../img/Bitmap.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: auto;
+  background-size: 1280px 600px;
+  height: 600px;
   margin-bottom: 136px;
 }
 
@@ -645,6 +642,7 @@ img {
   padding: 0;
   margin-bottom: 36px;
   max-width: 493px;
+  height: auto;
   font-family: Fraunces 9pt;
   font-weight: 900;
   font-size: 72px;
@@ -657,6 +655,7 @@ img {
   padding: 0;
   margin-bottom: 52px;
   max-width: 445px;
+  height: auto;
   font-family: Barlow;
   line-height: 26px;
   color: #FEFCF7;
@@ -664,7 +663,8 @@ img {
 }
 
 .button {
-  max-width: 217px;
+  width: 217px;
+  height: 56px;
   background: #0E8784;
   color: #fff;
   border-radius: 6px;
@@ -679,6 +679,16 @@ img {
 
 .button:hover {
   background-color: #66D2CF;
+}
+
+@media (max-width: 367px) {
+  .background-img {
+    background-image: url(../img/Bitmap.png);
+    background-size: 327px 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+  }
 }
 
 .services {
