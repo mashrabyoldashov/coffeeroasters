@@ -39,7 +39,7 @@
     display: none;
 }
 
-@media (max-width: 367px){
+@media only screen and (max-width: 367px){
 
     .coffe-logo{
         width: 167px;

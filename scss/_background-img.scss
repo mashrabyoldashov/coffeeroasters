@@ -1,13 +1,3 @@
-// .background-img{
-//     background-image: url(../img/Bitmap.png);
-//     background-repeat: no-repeat;
-//     background-position: center;
-//     background-size: 1280px 600px;
-//     // max-width: 1280px;
-//     height: 600px;
-//     margin-bottom: 136px;
-// }
-
 .container-back-img{
     max-width: 1280px;
     height: auto;
@@ -63,7 +53,7 @@
     background-color: #66D2CF;
 }
 
-@media (max-width: 367px){
+@media only screen and (max-width: 367px){
 
     .container-back-img{
         width: 327px;
@@ -81,7 +71,6 @@
 
     .back-img-heading{
         width: 279px;
-        // margin-bottom: 24px;
         font-family: Fraunces 9pt;
         font-weight: 900;
         font-size: 40px;
@@ -92,7 +81,6 @@
 
     .back-img-desc{
         width: 279px;
-        // margin-bottom: 39px;
         font-family: Barlow;
         font-size: 15px;
         line-height: 25px;
@@ -100,11 +88,4 @@
         color: #FEFCF7;
         opacity: 0.8;
     }
-    // .background-img{
-    //     background-image: url(../img/Bitmap.png);
-    //     background-size: 327px 500px;
-    //     background-repeat: no-repeat;
-    //     background-position: center;
-    //     height: 500px;
-    // }
 }
