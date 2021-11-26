@@ -4,18 +4,20 @@
     background-color: #fff;
     top: 0;
     left: 0;
-    z-index: 1;
+    z-index: 100;
 }
 
 .coffe-logo{
-    max-width: 100%;
-    width: 236px;
+    flex-shrink: 1;
+    max-width: 236px;
     height: auto;
 }
 
 .header-nav-list{
     display: flex;
+    // flex-shrink: 0;
     align-items: center; 
+    white-space: nowrap;
     list-style: none;
     margin: 0 -16.5px;
 }
@@ -39,16 +41,18 @@
     display: none;
 }
 
-@media only screen and (max-width: 367px){
-
-    .coffe-logo{
-        width: 167px;
-        height: 18px;
-    }
+@media only screen and (max-width: 580px){
     .header-nav-list a{
         display: none;
     }
     .hamburger-menu{
         display: block;
+    }
+}
+
+@media only screen and (max-width: 367px){
+    .coffe-logo{
+        width: 167px;
+        height: 18px;
     }
 }

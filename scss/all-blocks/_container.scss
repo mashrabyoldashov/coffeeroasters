@@ -4,3 +4,15 @@
     margin: 0 auto;
     padding: 0 20px;
 }
+
+
+// tablet uchun responsive container 
+
+@media only screen and (max-width: 768px){
+    .container{
+        width: 100%;
+        max-width: 729px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+}
