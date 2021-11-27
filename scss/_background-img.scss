@@ -145,17 +145,18 @@
     }
 }
 
-@media only screen and (max-width: 367px){
+@media only screen and (max-width: 376px){
     .container-back-img{
         padding-top: 100px;
         padding-left: 24px;
-        background-image: url(../img/Bitmap104.png);
+        background-image: url(../../img/Bitmap104.png);
         background-repeat: no-repeat;
         background-position: center;
         max-width: 327px;
         min-height: 500px;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 120px;
     }
 
     .back-img-heading{

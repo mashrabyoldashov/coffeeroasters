@@ -145,7 +145,37 @@
 }
 
 @media only screen and (max-width: 488px){
+
+    .services{
+        position: relative;
+        z-index: 1;
+        margin-left: auto;
+        margin-right: auto;
+        background-position: center;
+        margin-bottom: 517px;
+        background-image: url(../img/Group50.png);
+        background-repeat: no-repeat;
+        max-width: 375px;
+        min-height: 72px;
+    }
+
     .services-item{
         flex-direction: column;
+    }
+
+    .services-heading{
+        margin: 0;
+        max-width: 282px;
+    }
+    .services-desc{
+        margin: 0;
+        max-width: 282px;
+    }
+}
+
+
+@media only screen and (max-width: 376px){
+    .services{
+        margin-bottom: 1369px;
     }
 }
