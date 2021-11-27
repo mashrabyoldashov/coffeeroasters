@@ -4,7 +4,6 @@
 .how-it-works-heading{
     margin: 0;
     padding: 0;
-    margin-left: 25px;
     margin-bottom: 80px;
     font-family: Fraunces 9pt;
     font-weight: 900;
@@ -16,30 +15,29 @@
     margin-left: 25px;
     margin-bottom: 67px;
 }
-.works-navbar{
-    margin-left: -40px;
-    margin-bottom: 64px;
-}
+
 .works-list{
-    margin: 0 -95px;
+    padding: 0;
+    margin: 0 -93px;
+    margin-bottom: 64px;
     display: flex;
     align-items: center;
     justify-content: center;
     list-style: none;
 }
 .works-item{
-    margin: 0 95px;
+    margin: 0 93px;
     display: flex;
     flex-direction: column;
-    width: 285px;
-    height: 355px;
+    max-width: 285px;
+    min-height: 355px;
 }
 .works-img{
     margin-bottom: 38px;
 }
 .works-item-heading{
-    width: 216px;
-    height: 73px;
+    max-width: 216px;
+    min-height: 73px;
     margin: 0;
     padding: 0;
     margin-bottom: 42px;
@@ -57,6 +55,148 @@
     line-height: 26px;
     color: #333D4B;
 }
-.btn{
-    margin-left: 25px;
+
+@media only screen and (max-width: 958px){
+    .how-it-works{
+        margin-bottom: 120px;
+    }
+
+    .works-list{
+        padding: 0;
+        margin: 0 -30px;
+        margin-bottom: 64px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+    }
+    .works-item{
+        margin: 0 30px;
+        display: flex;
+        flex-direction: column;
+        max-width: 223px;
+        min-height: 154px;
+    }
+    .works-img{
+        max-width: 90;
+        min-height: 72px;
+        margin-bottom: 38px;
+    }
+    .works-item-heading{
+        margin: 0;
+        max-width: 223px;
+        height: 65px;
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .works-item-desc{
+        margin: 0;
+        max-width: 223px;
+        height: 154px;
+        font-size: 15px;
+        line-height: 25px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .how-it-works{
+        margin-bottom: 120px;
+    }
+    .works-list{
+        padding: 0;
+        margin: 0 -10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+    }
+    .works-item{
+        margin: 0 10px;
+        display: flex;
+        flex-direction: column;
+        max-width: 223px;
+        min-height: 154px;
+    }
+    .works-img{
+        max-width: 90px;
+        min-height: 72px;
+        margin-bottom: 38px;
+    }
+    .works-item-heading{
+        margin: 0;
+        max-width: 223px;
+        height: 65px;
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .works-item-desc{
+        margin: 0;
+        max-width: 223px;
+        height: 154px;
+        font-size: 15px;
+        line-height: 25px;
+    }
+}
+
+@media only screen and (max-width: 738px){
+    .how-it-works{
+        margin-bottom: 120px;
+    }
+    .how-it-works-img{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .how-it-works{
+        margin-bottom: 120px;
+    }
+    .how-it-works-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .how-it-works-heading{
+        text-align: center;
+    }
+    .works-list{
+        padding: 0;
+        margin-bottom: 64px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        list-style: none;
+    }
+    .works-item{
+        display: flex;
+        flex-direction: column;
+        max-width: 223px;
+        min-height: 154px;
+    }
+
+    .works-item:not(:last-child){
+        margin-bottom: 24px;
+    }
+
+    .works-img{
+        margin: 0 auto;
+        margin-bottom: 24px;
+    }
+
+    .works-item-heading{
+        margin: 0;
+        margin-bottom: 24px;
+        text-align: center;
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .works-item-desc{
+        margin: 0;
+        text-align: center;
+        font-size: 15px;
+        line-height: 25px;
+    }
 }

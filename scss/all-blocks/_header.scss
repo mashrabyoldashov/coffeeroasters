@@ -1,21 +1,13 @@
 .header{
-    position: fixed;
     width: 100%;
-    background-color: #fff;
-    top: 0;
-    left: 0;
-    z-index: 100;
 }
-
 .coffe-logo{
-    flex-shrink: 1;
     max-width: 236px;
     height: auto;
 }
 
 .header-nav-list{
     display: flex;
-    // flex-shrink: 0;
     align-items: center; 
     white-space: nowrap;
     list-style: none;
@@ -37,22 +29,61 @@
     color: #333D4B;
 }
 
-.hamburger-menu{
+.hamburger-link{
     display: none;
 }
 
 @media only screen and (max-width: 580px){
-    .header-nav-list a{
+
+    .header{
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+
+    .hamburger-link{
+        border: none;
+        width: 40px;
+        height: 40px;
+        background-color: #fff;
+        display: inline-block;
+    }
+
+    .header-navbar{
         display: none;
     }
-    .hamburger-menu{
-        display: block;
+
+    .header--open .header-navbar{
+        padding-top: 40px;
+        padding-bottom: 377px;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        min-height: 577px;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background: linear-gradient(180deg, #FEFCF7 55.94%  0%, rgba(254, 252, 247, 0.504981) );
+    }    
+
+    .header--open .header-nav-list{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header--open .header-nav-list .header-nav-item{
+        margin-bottom: 32px;
+    }
+    
+    .header--open .header-nav-list .header-nav-item a{
+        margin-bottom: 32px;
+        font-family: Fraunces 9pt;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: #333D4B;
     }
 }
 
-@media only screen and (max-width: 367px){
-    .coffe-logo{
-        width: 167px;
-        height: 18px;
-    }
-}
