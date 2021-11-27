@@ -240,3 +240,44 @@
         border-radius: 8px;
     }
 }
+
+@media only screen and (max-width: 376px){
+    .container-choose-us{
+        margin-bottom: 351px; 
+        padding-top: 64px;
+        width: 100%;
+        height: 902px;
+        background: #2C343E;
+        border-radius: 10px;
+    }
+    .choose-us-heading{
+        margin: 0;
+        margin-bottom: 24px;
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .choose-us-desc{
+        margin: 0;
+        margin-bottom: 64px;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .choose-us-list{
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        list-style: none;
+    }
+    .choose-us-item{
+        padding: 72px 33px 48px 33px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 279px;
+        height: 382px;
+        background: #0E8784;
+        border-radius: 8px;
+    }
+}
