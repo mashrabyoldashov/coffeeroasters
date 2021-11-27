@@ -800,6 +800,7 @@ img {
   }
   .back-img-heading {
     margin: 0;
+    margin: 0 auto;
     margin-bottom: 24px;
     max-width: 279px;
     min-height: 81px;
@@ -812,6 +813,7 @@ img {
   }
   .back-img-desc {
     margin: 0;
+    margin: 0 auto;
     margin-bottom: 39px;
     max-width: 279px;
     min-height: 101px;
