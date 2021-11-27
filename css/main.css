@@ -785,7 +785,7 @@ img {
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 430px) {
   .container-back-img {
     padding-top: 100px;
     padding-left: 24px;
@@ -1035,7 +1035,7 @@ img {
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 430px) {
   .services {
     margin-bottom: 1369px;
   }
@@ -1294,7 +1294,7 @@ img {
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 430px) {
   .container-choose-us {
     margin-bottom: 351px;
     padding-top: 64px;
