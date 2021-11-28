@@ -4,7 +4,7 @@
 }
 
 .container-footer{
-    padding: 47px 84px;
+    padding: 47px 84px ;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -80,7 +80,7 @@
 @media only screen and (max-width: 960px){
     .container-footer{
         margin: 0 auto;
-        padding: 47px 0;
+        padding: 47px 20px;
         display: flex;
         width: 100%;
         flex-direction: column;
