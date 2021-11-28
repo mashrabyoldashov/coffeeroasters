@@ -6,8 +6,9 @@
     background-image: url(../img/Bitmap2.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 1280px 450px;
-    height: 450px;
+    margin: 0 auto;
+    max-width: 1280px;
+    min-height: 450px;
 }
 
 .back-img-left-2{
@@ -27,12 +28,96 @@
 }
 
 .back-img-desc-2{
-    width: 445px;
-    height: 104px;
+    max-width: 445px;
+    min-height: 104px;
     margin: 0;
     padding: 0;
     font-family: Barlow;
     font-size: 16px;
     line-height: 26px;
     color: #FEFCF7;
+}
+
+@media only screen and (max-width: 768px){
+    .background-img-2{
+        margin-bottom: 144px;
+    }
+    .container-back-img-1{
+        background-image: url(../img/Bitmap10.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 0 auto;
+        max-width: 689px;
+        min-height: 400px;
+    }
+
+    .back-img-left-2{
+        padding: 118px 0 0 58px;
+    }
+
+    .back-img-heading-2{
+        margin: 0;
+        margin-bottom: 24px;
+        max-width: 150px;
+        min-height: 40px;
+        font-family: Fraunces 9pt;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 40px;
+        color: #FEFCF7;
+    }
+    
+    .back-img-desc-2{
+        max-width: 398px;
+        height: 100px;
+        margin: 0;
+        font-family: Barlow;
+        font-size: 15px;
+        line-height: 25px;
+        color: #FEFCF7;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .background-img-2{
+        margin-bottom: 120px;
+    }
+    .container-back-img-1{
+        background-image: url(../img/Bitmap11.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 327px;
+        min-height: 400px;
+    }
+
+    .back-img-left-2{
+        padding: 111px 24px 0 24px;
+    }
+
+    .back-img-heading-2{
+        text-align: center;
+        margin: 0;
+        margin-bottom: 24px;
+        max-width: 279px;
+        min-height: 28px;
+        font-family: Fraunces 9pt;
+        font-weight: 900;
+        font-size: 28px;
+        line-height: 28px;
+        color: #FEFCF7;
+    }
+    
+    .back-img-desc-2{
+        text-align: center;
+        margin: 0;
+        max-width: 398px;
+        height: 100px;
+        font-family: Barlow;
+        font-size: 15px;
+        line-height: 25px;
+        color: #FEFCF7;
+    }
 }
