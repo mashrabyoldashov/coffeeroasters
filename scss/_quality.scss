@@ -1,29 +1,41 @@
+.uncompromising-quality{
+    // position: relative;
+}
+
 .quality-container{
-    position: relative;
+    padding-top: 96px;
+    padding-left: 85px;
+    margin-top: 190px;
+    // position: relative;
     display: flex;
     margin-bottom: 168px;
-    width: 1280pX;
-    height: 474px;
+    max-width: 1280pX;
+    min-height: 474px;
     background: #2C343E;
     border-radius: 10px;
 }
 
 .position-img{
-    position: absolute;
-    left: 730px;
-    bottom: 100px;
+    margin-top: -200px;
+    margin-left: 145px;
+    // margin-bottom: -100px;
+    width: 100%;
+    max-width:  445px;
+    min-height:  474px;
 }
 
 .quality-left{
-    padding-top: 96px;
-    padding-left: 85px;
-    width: 540px;
-    height: 210px;
+    display: flex;
+}
+
+.booox{
+    max-width: 540px;
+    min-height: 210px;
 }
 
 .quality-left-heading{
-    width: 517px;
-    height: 48px;
+    max-width: 517px;
+    min-height: 48px;
     margin: 0;
     padding: 0;
     margin-bottom: 32px;
@@ -42,3 +54,155 @@
     color: #FEFCF7;
     opacity: 0.8;
 }
+
+@media only screen and (max-width:1280px){
+    .position-img{
+        margin-left: 50px;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+
+    .quality-container{
+        padding: 0;
+    }
+    .quality-left{
+        margin: 0;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .position-img{
+        margin: 0;
+        margin-top: -250px;
+        margin-bottom: 64px;
+        width: 100%;
+        max-width: 573px;
+        min-height: 320px;
+    }
+
+    .quality-left-heading{
+        max-width: 517px;
+        min-height: 48px;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 32px;
+        font-family: Fraunces 9pt;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        color: #FEFCF7;
+    }
+    
+    .quality-left-desc{
+        margin: 0;
+        padding: 0;
+        font-family: Barlow;
+        line-height: 26px;
+        color: #FEFCF7;
+        opacity: 0.8;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .quality-container{
+        margin-top: 130px;
+        padding: 224px 74px 74px 67px;
+        position: relative;
+        // display: flex;
+        margin-bottom: 168px;
+        max-width: 688pX;
+        min-height: 488px;
+        background: #2C343E;
+        border-radius: 10px;
+    }
+
+    .position-img{
+        margin: 0;
+        margin-top: -350px;
+        margin-bottom: 64px;
+        width: 100%;
+        max-width: 573px;
+        min-height: 320px;
+    }
+
+    .quality-left-heading{
+        text-align: center;
+        max-width: 517px;
+        min-height: 48px;
+        margin: 0;
+        margin-bottom: 32px;
+        font-family: Fraunces 9pt;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 48px;
+        color: #FEFCF7;
+    }
+    
+    .quality-left-desc{
+        margin: 0;
+        text-align: center;
+        font-family: Barlow;
+        font-size: 15px;
+        line-height: 25px;
+        color: #FEFCF7;
+        opacity: 0.8;
+    }
+}
+
+@media only screen and (max-width: 555px){
+    .quality-container{
+        margin-top: 130px;
+        padding: 142px 24px 61px 24px;
+        position: relative;
+        // display: flex;
+        margin-bottom: 168px;
+        max-width: 688pX;
+        min-height: 488px;
+        background: #2C343E;
+        border-radius: 10px;
+    }
+    .quality-left{
+        margin: 0;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .position-img{
+        margin: 0;
+        margin-top: -200px;
+        margin-bottom: 64px;
+        width: 100%;
+        max-width: 279px;
+        min-height: 156px;
+    }
+
+    .quality-left-heading{
+        max-width: 279px;
+        min-height: 56px;
+        margin: 0;
+        margin-bottom: 32px;
+        font-family: Fraunces 9pt;
+        font-weight: 900;
+        font-size: 28px;
+        line-height: 28px;
+        color: #FEFCF7;
+    }
+    
+    .quality-left-desc{
+        max-width: 279px;
+        min-height: 256px;
+        margin: 0;
+        font-family: Barlow;
+        font-size: 15px;
+        line-height: 25px;
+        color: #FEFCF7;
+        opacity: 0.8;
+    }
+} 
